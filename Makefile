@@ -1,4 +1,5 @@
 token?=''
+port?=3030
 
 app_up:
 	cd app && npm run start
@@ -11,4 +12,4 @@ prepare:
 	yarn install && yarn run build
 
 start: prepare
-	env NUMVERIFY_TOKEN=${token} node ./src/index.js
+	env NUMVERIFY_TOKEN=${token} PORT=${port} node ./src/index.js

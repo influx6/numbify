@@ -25,7 +25,7 @@ You would need to have registered with [NumVerify](https://numverify.com/) as th
 associated token is required.
 
 ```bash
-make start token=<numverify-token-id>
+make start token=<numverify-token-id> port=3030
 ```
 
 Simply replace `<numverify-token-id>` with appropriate token.
