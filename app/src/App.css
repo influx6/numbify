@@ -1,0 +1,33 @@
+.App {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+}
+
+.topSection {
+  display: flex;
+  height: 300px;
+  background-color: #cccc;
+  align-items: center;
+  justify-content: center;
+}
+
+.topSection .form-header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.topSection .form-header h2 {
+  color: #222;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.bottomSection{
+  width: 100%;
+  min-height: 40vh;
+}
+
+

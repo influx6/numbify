@@ -1,0 +1,37 @@
+{
+  "name": "numbify",
+  "version": "1.0.0",
+  "description": "A basic webapp showcasing a number verification application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.ts localhost 3030",
+    "tsc": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "Alexander Ewetumo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nedb": "^1.8.9",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.1",
+    "@types/lodash": "^4.14.150",
+    "@types/node": "^13.13.2",
+    "babel-jest": "^24.9.0",
+    "jest": "24.9.0",
+    "nodemon": "^2.0.3",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3",
+    "typescript-eslint-parser": "^22.0.0"
+  }
+}

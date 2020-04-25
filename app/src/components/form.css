@@ -1,0 +1,32 @@
+.formWrapper {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper .form {
+  width: 100%;
+}
+
+.formInput {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding-right: 10;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.labelError {
+  color: red;
+  padding: 10px 0;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}

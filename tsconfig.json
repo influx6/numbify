@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./src",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+  },
+  "files": [
+    "./node_modules/@types/jest/index.d.ts",
+    "./node_modules/@types/nedb/index.d.ts",
+    "./node_modules/@types/express/index.d.ts",
+    "./node_modules/@types/node/index.d.ts"
+  ],
+  "include": [
+    "**/services/*.ts", "index.ts", "setupTest.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
