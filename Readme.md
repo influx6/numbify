@@ -29,3 +29,10 @@ make start token=<numverify-token-id>
 ```
 
 Simply replace `<numverify-token-id>` with appropriate token.
+
+To retrieve all verified data from the api, simply make the following http request with curl or any other tooling desired
+
+
+```bash
+curl http://localhost:3030/api/validations
+```
