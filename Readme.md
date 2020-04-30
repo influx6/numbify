@@ -10,8 +10,6 @@ Due to time limitations a few things are below standard:
 2. Adequate docker and docker-compose setup to make execution easier and reproducable
 3. Proper UI/UX styling (to ensure adequate responsiveness and over-all quality)
 
-These are deeply apologise for.
-
 ## Requirements
 
 The following requirements are needed to run the project:
